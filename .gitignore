@@ -1,0 +1,8 @@
+/build
+/.dart_tool
+.packages
+.idea
+*.iml
+.DS_Store
+/.firebase
+android/key.properties

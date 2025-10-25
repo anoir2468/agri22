@@ -1,0 +1,49 @@
+name: yed_byed_mobile
+description: منصة الفلاح الجزائري - تطبيق موبايل
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+
+  # State management
+  flutter_riverpod: ^2.3.6
+
+  # Routing
+  go_router: ^7.0.4
+
+  # Firebase
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.8.0
+  cloud_firestore: ^4.9.0
+  firebase_storage: ^11.2.0
+  firebase_messaging: ^14.6.0
+  firebase_analytics: ^10.3.0
+  firebase_crashlytics: ^3.2.0
+
+  # HTTP and utilities
+  dio: ^5.2.2
+  flutter_secure_storage: ^8.0.0
+  shared_preferences: ^2.1.0
+  intl: ^0.18.1
+
+  # Maps & Location
+  google_maps_flutter: ^2.4.2
+  geolocator: ^9.0.2
+  location: ^4.5.0
+
+  # Images & UI
+  cached_network_image: ^3.2.4
+  image_picker: ^1.1.1
+  flutter_svg: ^2.1.4
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0

@@ -1,0 +1,7 @@
+لتفعيل Firebase:
+1. اذهب إلى console.firebase.google.com وأنشئ مشروعاً جديداً.
+2. أضف تطبيق Android و/أو iOS واشحن ملفات google-services.json و GoogleService-Info.plist داخل المجلدات المناسبة.
+3. أزل التعليق عن Firebase.initializeApp() في main.dart وأضف import:
+   import 'package:firebase_core/firebase_core.dart';
+   ثم قبل runApp(): await Firebase.initializeApp();
+4. تحديث التطبيقات، وضبط قواعد Firestore و Storage حسب الحاجة.
